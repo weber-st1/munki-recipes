@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Postman and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.weber-st1.munki.Postman</string>
+	<string>com.github.weber-st1.recipes.munki.Postman</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.weber-st1.download.Postman</string>
+	<string>com.github.weber-st1.recipes.download.Postman</string>
 	<key>Process</key>
 	<array>
 		<dict>

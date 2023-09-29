@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Postman.</string>
 	<key>Identifier</key>
-	<string>com.github.weber-st1.download.Postman</string>
+	<string>com.github.weber-st1.recipes.download.Postman</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
