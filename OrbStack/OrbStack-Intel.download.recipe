@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OrbStack for Intel</string>
+		<string>OrbStack_amd64</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
