@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of OrbStack for Intel Mac and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.weber-st1.recipes.munki.OrbStack-Intel</string>
+	<string>com.github.weber-st1.recipes.munki.OrbStack_amd64</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.weber-st1.recipes.download.OrbStack-Intel</string>
+	<string>com.github.weber-st1.recipes.download.OrbStack_amd64</string>
 	<key>Process</key>
 	<array>
 		<dict>

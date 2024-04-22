@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of OrbStack for Intel Mac.</string>
 	<key>Identifier</key>
-	<string>com.github.weber-st1.recipes.download.OrbStack-Intel</string>
+	<string>com.github.weber-st1.recipes.download.OrbStack_amd64</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
