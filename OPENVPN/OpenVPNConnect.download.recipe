@@ -47,7 +47,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%pathname%/OpenVPN_Connect_3_5_0(5200)_arm64_Installer_signed.pkg</string>
+				<string>%pathname%/OpenVPN_Connect_*_arm64_Installer_signed.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -58,7 +58,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack</string>
 				<key>flat_pkg_path</key>
-				<string>%pathname%/OpenVPN_Connect_3_5_0(5200)_arm64_Installer_signed.pkg</string>
+				<string>%pathname%/OpenVPN_Connect_*_arm64_Installer_signed.pkg</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
