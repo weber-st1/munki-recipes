@@ -2,14 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
-	<key>Description</key>
-	<string>Downloads the latest version of OpenVPN Connect and imports it into Munki.</string>
-	<key>Identifier</key>
-	<string>com.github.weber-st1.recipes.munki.OpenVPNConnect</string>
-	<key>Input</key>
-	<dict>
+    <key>Description</key>
+    <string>Downloads the latest version of OpenVPN Connect Client 3 and imports it into Munki.
+
+Set the ARCH variable to "x86_64" for Intel downloads or "arm64" for Apple Silicon downloads.
+Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_version via MunkiInstallsItemsCreator.</string>
+    <key>Identifier</key>
+    <string>com.github.weber-st1.recipes.munki.OpenVPNConnectClient3</string>
+    <key>Input</key>
+    <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
@@ -22,7 +23,7 @@
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Official OpenVPN client for Mac for connecting to VPN servers using the OpenVPN protocol.</string>
@@ -60,7 +61,7 @@ exit</string>
     <key>MinimumVersion</key>
     <string>2.7</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.OpenVPN Connect Client 3</string>
+    <string>com.github.weber-st1.recipes.download.OpenVPNConnectClient3</string>
     <key>Process</key>
     <array>
         <dict>
